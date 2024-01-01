@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "This is one of the best youtube backend course",
-  "scripts": {
-
-  },
+  "scripts": {},
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
@@ -16,6 +14,9 @@
     "backend",
     "Chai"
   ],
-  "author":"Talha Tabish",
-  "license":"ISC"
+  "author": "Talha Tabish",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.1.1"
+  }
 }

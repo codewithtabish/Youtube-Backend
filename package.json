@@ -1,0 +1,21 @@
+{
+  "name": "youtube-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is one of the best youtube backend course",
+  "scripts": {
+
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "Chai"
+  ],
+  "author":"Talha Tabish",
+  "license":"ISC"
+}

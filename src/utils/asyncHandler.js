@@ -1,5 +1,5 @@
-const asyncHandler=(apiMethod)=>{
-    (req,res,next)=>{
+export const asyncHandler=(apiMethod)=>{
+   return (req,res,next)=>{
         Promise.resolve(apiMethod(req,res,next)).catch((err)=>next(err))
     }
 }
